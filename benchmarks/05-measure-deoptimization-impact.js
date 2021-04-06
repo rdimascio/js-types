@@ -4,8 +4,8 @@
  * Run without tracing first to get a benchmark, then uncomment line 47 & 47, and run again
  * to show that the code is being optimized and deoptimized by Turbofan.
  * 
- * node benchmarks/add-measure-deoptimization.js
- * node --trace-opt --trace-deopt benchmarks/measure-deoptimization-impact.js | grep Point
+ * node benchmarks/05-measure-deoptimization-impact.js
+ * node --trace-opt --trace-deopt benchmarks/05-measure-deoptimization-impact.js | grep Point
  */
 
  const {

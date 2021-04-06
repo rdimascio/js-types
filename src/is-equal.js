@@ -1,5 +1,5 @@
 // @ts-check
-import isType from './isType';
+import isType from './is-type';
 
 /**
  * Compare the eqaulity of two objects.

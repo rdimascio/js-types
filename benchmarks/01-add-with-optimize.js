@@ -4,8 +4,8 @@
  * Run without tracing optimizations first to get a benchmark, then again
  * to show that the code is being optimized by Turbofan.
  *  
- * node benchmarks/add-with-optimize.js
- * node --trace-opt benchmarks/add-with-optimize.js
+ * node benchmarks/01-add-with-optimize.js
+ * node --trace-opt benchmarks/01-add-with-optimize.js
  */
 
 const {

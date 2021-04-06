@@ -1,8 +1,7 @@
-
 /**
- * Get the real type of anything. 
+ * Get the real type of anything.
  *
- * @see {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#real-world_usage}
+ * // @ts-ignore @see {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#real-world_usage}
  * @param {*} obj - Object to check.
  * @return {string} - 
  */

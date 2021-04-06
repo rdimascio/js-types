@@ -1,7 +1,7 @@
 /**
  * Demonstrates execution of code without Turbofan optimization.
  *
- * node --trace-opt --allow-natives-syntax benchmarks/add-without-optimize.js
+ * node --trace-opt --allow-natives-syntax benchmarks/02-add-without-optimize.js
  */
 
 const {
@@ -14,8 +14,6 @@ const obs = new PerformanceObserver((perfObserverList, observer) => {
 	console.log(measure.duration);
 	observer.disconnect();
 });
-
-// SETUP 🏁
 
 let iterations = 1e7;
 
@@ -32,11 +30,7 @@ class Point {
 
 obs.observe({ entryTypes: ['mark', 'measure'], buffered: true });
 
-// 🔚 SETUP
-
 performance.mark('start');
-
-// EXERCISE 💪
 
 %NeverOptimizeFunction(Point);
 
@@ -44,8 +38,6 @@ while (iterations--) {
     const point = new Point(10, iterations);
 	point.add();
 }
-
-// 🔚 EXERCISE
 
 performance.mark('end');
 performance.measure('Benchmark', 'start', 'end');

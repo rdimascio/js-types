@@ -1,7 +1,7 @@
 /**
  * Demonstrates de-optimization of code with Turbofan.
  *
- * node --trace-opt --trace-deopt benchmarks/add-with-any-type.js
+ * node --trace-opt --trace-deopt benchmarks/04-add-with-any-type.js
  */
 
 let iterations = 1e7;
