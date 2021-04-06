@@ -1,5 +1,5 @@
 # 10up Frontend Presentation: JavaScript Types
-A simple repo containing a potential fix for the typeof operator, equality comparison for object literals, and a demo showcasing how V8 optimizations can help speed up your code.
+A simple repo containing a potential fix for the typeof operator, equality comparison for object literals (located in `src`), and a demo showcasing how V8 optimizations can help speed up your code (located in `benchmarks`).
 
 ### Further Reading
 - https://frontendmasters.com/courses/deep-javascript-v3/
