@@ -8,7 +8,7 @@
 // Tell VS Code to use type checking in this file.
 // @ts-check
 
-// Include argument types in a JSDoc block above function
+// Include argument types in a JSDoc block using @param
 /**
  * Simple type checking example.
  *
@@ -20,3 +20,6 @@ const add = (x, y) => x + y;
 
 // This will throw an error because `y` should be a number.
 add(1, '2');
+
+// Explicitly cast `y` to a number
+add(1, Number('2'));

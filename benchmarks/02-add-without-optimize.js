@@ -1,6 +1,7 @@
 /**
  * Demonstrates execution of code without Turbofan optimization.
  *
+ * node --allow-natives-syntax benchmarks/02-add-without-optimize.js
  * node --trace-opt --allow-natives-syntax benchmarks/02-add-without-optimize.js
  */
 

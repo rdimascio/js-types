@@ -40,6 +40,5 @@ while (iterations--) {
 	point.add();
 }
 
-
 performance.mark('end');
 performance.measure('Benchmark', 'start', 'end');
